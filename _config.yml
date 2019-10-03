@@ -4,5 +4,4 @@ lang: pt-BR
 permalink: pretty
 gems:
   - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-redirect-from
