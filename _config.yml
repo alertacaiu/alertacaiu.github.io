@@ -1,0 +1,8 @@
+title: Alerta&#58; Caiu!
+description: Incidentes na Internet do Brasil
+lang: pt-BR
+permalink: pretty
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
