@@ -7,16 +7,15 @@ permalink: /test/
 Receba os **alertas** de atividade da lista Caiu sobre indisponibilidades na **Internet brasileira**
 
 <input type="checkbox" onclick="toggleAutoRefresh(this);" id="reloadCB"> Auto Refresh
-<script>
-  var reloading;
 
+<script>
+var reloading;
 function checkReloading() {
     if (window.location.hash=="#autoreload") {
         reloading=setTimeout("window.location.reload();", 5000);
         document.getElementById("reloadCB").checked=true;
     }
 }
-
 function toggleAutoRefresh(cb) {
     if (cb.checked) {
         window.location.replace("#autoreload");
@@ -26,7 +25,6 @@ function toggleAutoRefresh(cb) {
         clearTimeout(reloading);
     }
 }
-
 window.onload=checkReloading;
 </script>
 
