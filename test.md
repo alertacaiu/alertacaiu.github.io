@@ -12,7 +12,7 @@ Receba os **alertas** de atividade da lista Caiu sobre indisponibilidades na **I
 var reloading;
 function checkReloading() {
     if (window.location.hash=="#autoreload") {
-        reloading=setTimeout("window.location.reload();", 5000);
+        reloading=setTimeout("window.location.reload();", 60000);
         document.getElementById("reloadCB").checked=true;
     }
 }
