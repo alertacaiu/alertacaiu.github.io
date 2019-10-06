@@ -19,7 +19,7 @@ function checkReloading() {
 function toggleAutoRefresh(cb) {
     if (cb.checked) {
         window.location.replace("#autoreload");
-        reloading=setTimeout("window.location.reload();", 5000);
+        reloading=setTimeout("window.location.reload();", 60000);
     } else {
         window.location.replace("#");
         clearTimeout(reloading);
