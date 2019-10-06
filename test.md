@@ -40,8 +40,7 @@ Retransmissão mais recente:
   data-chrome="noheader nofooter noborders" 
   target="_blank" 
   rel="nofollow noopener noreferrer" 
-  href="https://twitter.com/AlertaCaiu?ref_src=twsrc%5Etfw"
->
+  href="https://twitter.com/AlertaCaiu?ref_src=twsrc%5Etfw">
     O carregamento falhou, clique para carregar.
 </a>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
