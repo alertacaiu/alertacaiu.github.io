@@ -33,17 +33,18 @@ window.onload=checkReloading;
 Retransmissão mais recente:
 
 <a 
-  class="twitter-timeline lazyload" 
+  class="twitter-timeline" 
   data-lang="pt" 
   data-link-color="#BE102E" 
   data-tweet-limit="1" 
   data-chrome="noheader nofooter noborders" 
-  data-script="//platform.twitter.com/widgets.js" 
   target="_blank" 
   rel="nofollow noopener noreferrer" 
-  href="https://twitter.com/AlertaCaiu?ref_src=twsrc%5Etfw">
+  href="https://twitter.com/AlertaCaiu?ref_src=twsrc%5Etfw"
+>
     O carregamento falhou, clique para carregar.
-  </a>
+</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p class="smaller">Por padrão, somente a primeira interação referente a cada incidente é retransmitida, portanto podem haver discussões ativas mesmo quando a última mensagem já tiver sido publicada há um certo tempo.</p>
 
