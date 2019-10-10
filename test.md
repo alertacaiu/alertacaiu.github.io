@@ -6,7 +6,7 @@ permalink: /test/
 
 Receba os **alertas** de atividade da lista Caiu sobre indisponibilidades na **Internet brasileira**
 
-<input type="checkbox" onclick="toggleAutoRefresh(this);" id="reloadCB"> Auto Refresh
+<input type="checkbox" onclick="toggleAutoRefresh(this);" id="reloadCB"> Auto-atualizar a cada 1 minuto
 
 <script>
 var reloading;
@@ -41,9 +41,8 @@ Retransmissão mais recente:
   target="_blank" 
   rel="nofollow noopener noreferrer" 
   href="https://twitter.com/AlertaCaiu?ref_src=twsrc%5Etfw">
-    O carregamento falhou, clique para carregar.
+    Carregando...
 </a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p class="smaller">Por padrão, somente a primeira interação referente a cada incidente é retransmitida, portanto podem haver discussões ativas mesmo quando a última mensagem já tiver sido publicada há um certo tempo.</p>
 
@@ -52,7 +51,7 @@ Retransmissão mais recente:
 Para ser notificado(a) sobre **novas atualizações** basta seguir a conta @AlertaCaiu no Twitter: 
 
 <a 
-class="twitter-follow-button lazyload" 
+class="twitter-follow-button" 
 data-size="large" 
 data-show-count="false" 
 target="_blank" 
