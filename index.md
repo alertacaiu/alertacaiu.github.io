@@ -1,7 +1,7 @@
 ---
 title: Alerta&#58; Caiu!
 description: Incidentes na Internet do Brasil
-permalink: /test/
+permalink: /
 ---
 
 Receba os **alertas** de atividade da lista Caiu sobre indisponibilidades na **Internet brasileira**
