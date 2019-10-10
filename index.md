@@ -6,28 +6,6 @@ permalink: /
 
 Receba os **alertas** de atividade da lista Caiu sobre indisponibilidades na **Internet brasileira**
 
-<input type="checkbox" onclick="toggleAutoRefresh(this);" id="reloadCB"> Auto-atualizar a cada 1 minuto
-
-<script>
-var reloading;
-function checkReloading() {
-    if (window.location.hash=="#autoreload") {
-        reloading=setTimeout("window.location.reload();", 60000);
-        document.getElementById("reloadCB").checked=true;
-    }
-}
-function toggleAutoRefresh(cb) {
-    if (cb.checked) {
-        window.location.replace("#autoreload");
-        reloading=setTimeout("window.location.reload();", 60000);
-    } else {
-        window.location.replace("#");
-        clearTimeout(reloading);
-    }
-}
-window.onload=checkReloading;
-</script>
-
 ### Última publicação
 
 Retransmissão mais recente:
@@ -43,6 +21,8 @@ Retransmissão mais recente:
   href="https://twitter.com/AlertaCaiu?ref_src=twsrc%5Etfw">
     Carregando...
 </a>
+
+<input type="checkbox" onclick="toggleAutoRefresh(this);" id="reloadCB"> Atualizar automaticamente
 
 <p class="smaller">Por padrão, somente a primeira interação referente a cada incidente é retransmitida, portanto podem haver discussões ativas mesmo quando a última mensagem já tiver sido publicada há um certo tempo.</p>
 
