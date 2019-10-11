@@ -22,7 +22,7 @@ Retransmissão mais recente:
     Carregando...
 </a>
 
-<input type="checkbox" onclick="toggleAutoRefresh(this);" id="reloadCB"> Atualizar automaticamente
+<label><input type="checkbox" onclick="toggleAutoRefresh(this);" id="reloadCB"> Atualizar automaticamente</input></label>
 
 <p class="smaller">Por padrão, somente a primeira interação referente a cada incidente é retransmitida, portanto podem haver discussões ativas mesmo quando a última mensagem já tiver sido publicada há um certo tempo.</p>
 
